@@ -1,0 +1,38 @@
+### Build and Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+bin/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Configuration (НЕ должно быть в репозитории) ###
+app.properties
+src/main/resources/app.properties
