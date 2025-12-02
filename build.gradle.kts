@@ -20,9 +20,11 @@ dependencies {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    // Компилируем под Java 11, чтобы код собирался на JDK 11, 17 и 21
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
+
 
 application {
     mainClass.set("org.example.sales.Main")
