@@ -11,7 +11,7 @@
 
 ## Конфигурация
 
-Настройки берутся из файла `app.properties` (в репозиторий не добавляется):
+Настройки берутся из файла `app.properties`:
 
 ```properties
 csv.input.path=./data/sales.csv
